@@ -54,27 +54,37 @@ b = auxiliar   # b toma el valor original de a
 print(f"Los valores originales son: a = {a} y b= {b}\nDespués del intercambio: a = {a} , b = {b}\n\n")
 
 
-#taller#
-#solicitar el ancho y el largo de un un terreno rectangular y calcular su perimetro#
+
+
+##########################################################################################################
+#       Taller tema 1
+#        A partir de los ejemplos resueltos anteriormente, resolver en Python los siguientes 5 ejercicios. 
+#        Todos los ejercicios deben solicitar los datos necesarios al usuario mediante input(), 
+#        mostrar los resultados con print() y estar comentados.
+###########################################################################################################
+
+# 1. solicitar el ancho y el largo de un un terreno rectangular y calcular su perimetro
+
 lado = float(input("Para este terreno cual es su ancho? "))
 lado2 = float(input("Para este terreno cual es su largo? "))
 perimetro = 2*lado2+2*lado
 print(f"El perimetro del campo con {lado} y {lado2} son {perimetro} metros\n\n")
 
 
-#2 solicitar tres numeros y dar su promedio
+# 2. solicitar tres numeros y dar su promedio
 nun1,num2,num3 = float(input("dame tres numeros: ")), float(input("el segundo numero: ")), float(input("el tercero numero: "))
 prom = (num2+num3+nun1)/3
 print(f"El promedio de {nun1}, {num2}, {num3} es: {prom}\n\n")
 
-#Solicitar el nombre yla edad de una persona y mostrar un mensaje de presentacion
+
+# 3. Solicitar el nombre yla edad de una persona y mostrar un mensaje de presentacion
 nombre,edad = input("Cual es tu nombre?: "), float(input("cual es tu edad? :"))
 print(f"hola {nombre} veo que tienes {edad} años\n\n")
 
-#solicitar un valor en pesos comerciales y mostra los pesos en dolares a 1usd=3100cop
+# 4. solicitar un valor en pesos comerciales y mostra los pesos en dolares a 1usd=3100cop
 dinero1 = float(input("cuanto dinero colombiano vas a cambiar a USD?\n\n"))
 usd  = dinero1/3100
 print(f"Ahora tienes {usd} en dolares")
 
-#solicitar un valor en segundos, y convertirlas en minutos em horas minutos y segundo
+# 5. Solicitar una cantidad de segundos y convertirla a horas, minutos y segundos.
 
